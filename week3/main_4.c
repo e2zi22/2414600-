@@ -7,11 +7,11 @@ int main(void) {
 	
 	float a, b;
 	
-	printf("enter two integers: ");
+	printf("enter two integers: ");      // input int
 	scanf("%f,%f", &a, &b);
 	
 	
-	printf("%f / %f = %.6f",a,b,a/b);
+	printf("%f / %f = %.6f",a,b,a/b);    //print result
 	
 	
 	return 0;

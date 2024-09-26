@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 	printf("enter a character: ");
 	scanf("%c", &c);
 	
-	char n_c = c + 1;
+	char n_c = c + 1;     //next char set
 	
 	
 	printf("the next chracter of %c (%d)) is %c (%d)", c, c, n_c, n_c);
